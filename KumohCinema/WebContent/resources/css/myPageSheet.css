@@ -1,0 +1,133 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'ÇÔÃÊ·Òµ¸¿ò';
+}
+h1 {
+    font-size: 30px;
+    font-weight: 900;
+}
+h2 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/*-----------------section-----------------*/
+.container {
+    margin-top:10px;
+    text-align: center;
+}
+#my_page_title {
+    margin-top:100px;
+    height: 50px;
+    display: block;
+    margin-bottom: 20px;
+ }
+.MyReservation, .MyComment {
+    width: 800px;
+    clear: both;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border: 2px solid lightblue;
+    border-radius: 20px;
+    text-align: left;
+    padding: 15px;
+}
+.MyComment{
+    margin-top:0px;
+}
+.title{
+    font-weight: bold;
+    font-size:17px;
+    margin-bottom:10px;
+}
+.myMovieList{
+    width: 740px;
+    height:250px;
+    z-index:2;
+    overflow-x:scroll;
+    white-space: nowrap;
+}
+.movie{
+	width: 600px;
+    border:solid 1px lightgray;
+    border-radius: 10px;
+    padding-left:15px;
+    padding-top:28px;
+}
+.myMovieList>.movie {
+    position: relative;
+    display:inline-block;
+    height:200px;
+}
+.movie img {
+    width: 100%;
+    border: 2px solid white;
+}
+.movie>div {
+    display: inline-block;
+}
+.poster {
+    width: 15%;
+    margin-right: 35px;
+}
+.reservationInfo {
+    position: relative;
+    top: -15px;
+    width: 60%;
+    text-align: left;
+}
+.reservationDetail {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid lightblue;
+}
+.reservationInfo li{
+    list-style-type:none;
+    display:inline-block;
+    text-decoration: none;
+    height:10px;
+    padding:10px;
+}
+
+.myReviewList{
+    display:block;
+    width: 740px;
+    height:200px;
+    overflow-x:scroll;
+    white-space: nowrap;
+}
+.myReviewList>.MyReview{
+    display:inline-block;
+    border-radius:10px;
+    margin:5px;
+    width:48%;
+    height:130px;
+    background-color:lightgray;
+}
+.movieTitle{
+	width: 100%;
+    margin: 10px;
+    display: inline-block;
+    align-items: flex-end;
+}
+.reviewText{
+    margin:10px;
+    padding-top:10px;
+    border-top:1px solid gray;
+}
+.reviewTextchg {
+    margin:10px;
+    padding-top:10px;
+}
+.button{
+	width:20%;
+	float:right;
+}
+#up, #de{
+	display: inline-block;
+}
+.delete_review_btn{
+	width: 15px;
+	height: 15px;
+}

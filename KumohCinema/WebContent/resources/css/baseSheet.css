@@ -1,0 +1,85 @@
+@charset "EUC-KR";
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+button {
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+}
+button:hover:enabled {
+    background-color: black;
+    color: white;
+}
+button:focus, input:focus {
+    outline: none;
+}
+/*-----------------header-----------------*/
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    width: 100%;
+    line-height: 60px;
+    box-shadow: 0 3px 5px 1px lightgray;
+}
+#logo {
+    position: relative;
+    left: 35px;
+    height: 30px;
+    vertical-align: middle;
+}
+#semi_logo {
+    position: relative;
+    left: 35px;
+    height: 12px;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+.login, .logout  {
+    line-height: 60px;
+    float: right;
+    padding-right: 35px;
+}
+.login ul li {
+    display: inline-block;
+}
+.logout ul li {
+    display: inline-block;
+    font-size: 12px;
+}
+.header_btn {
+    height: 20px;
+    vertical-align: middle;
+}
+.header::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+#user {
+    height: 20px;
+	border: 0;
+	text-align: right;
+}
+/*-----------------footer-----------------*/
+.footer {
+    line-height: 25px;
+    background-color: navy;
+}
+.footer ul, span {
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+    margin: 0.5em;
+}
+.footer ul {
+    border-right: 1px solid white;
+    padding-right: 0.5em;
+}

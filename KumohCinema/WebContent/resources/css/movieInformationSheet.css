@@ -1,0 +1,146 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'ÇÔÃÊ·Òµ¸¿ò';
+}
+h1 {
+    font-size: 30px;
+    font-weight: 900;
+}
+h2 {
+    font-size: 16px;
+    font-weight: 500;
+}
+/*-----------------header-----------------*/
+.header {
+    z-index:3;
+}
+/*-----------------section-----------------*/
+.container {
+    text-align: center;
+}
+
+/*----section>movieHead----*/
+.bigPoster {
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    margin-bottom: 10px;
+    z-index:1;
+}
+.bigPoster img {
+    height: 100%;
+}
+.smallPoster {
+    position: relative;
+    top: -50px;
+    width: 800px;
+    z-index:2;
+}
+.smallPoster>div {
+    display: inline-block;
+}
+#poster {
+    width: 20%;
+    margin-right: 35px;
+}
+#movieInfo {
+    position: relative;
+    top: -80px;
+    width: 60%;
+    text-align: left;
+}
+#movieDirector {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid lightblue;
+}
+.smallPoster img {
+    width: 100%;
+    border: 2px solid white;
+    box-shadow: 1px 1px 20px 1px black;
+}
+
+/*----section>movieBody----*/
+.movieBody {
+    width: 800px;
+    clear: both;
+    margin-top: -20px;
+    margin-bottom: 50px;
+    border: 2px solid lightblue;
+    border-radius: 20px;
+    text-align: left;
+    padding: 15px;
+}
+.title{
+    font-weight: bold;
+    font-size:17px;
+    margin-bottom:10px;
+}
+.cast, .reviewList, .reviewForm {
+    margin-top: 10px;
+    padding-top: 15px;
+    border-top: 1px solid lightblue;
+}
+.cast>div{
+    display: inline-block;
+    width:32%;
+}
+.castList li{
+    list-style-type:none;
+    margin:10px;
+    display:flex;
+    -webkit-box-align:center;
+    align-items:center;
+    color:inherit;
+    text-decoration: none;
+    height:76px;
+    border-bottom:solid 1px lightgray;
+    padding:10px;
+}
+.roundImg{
+    display:flex;
+    border:solid 1px rgba(0,0,0,0.08);
+    border-radius:50px;
+    position:relative;
+    -webkit-box-pack:center;
+    justify-content:center;
+    align-items:center;
+    width:70px;
+    height:65px;
+    overflow:hidden;
+    margin: 0 12px 0 0;
+}
+.Img {
+    width:100%;
+    height:100%;
+}
+.reviewList{
+    display:block;
+}
+.review{
+    width:100%;
+    height:180px;
+    overflow-x:scroll;
+    white-space:nowrap;
+}
+.review>div{
+    display:inline-block;
+    border-radius:10px;
+    margin:5px;
+    width:48%;
+    height:130px;
+    background-color:lightgray;
+}
+.reviewer{
+    margin: 10px 10px;
+}
+.reviewText{
+    margin:10px 10px;
+    padding-top:10px;
+    border-top:1px solid gray;
+}
+#review_btn {
+    height: 20px;
+    vertical-align: middle;
+}

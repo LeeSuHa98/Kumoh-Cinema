@@ -1,0 +1,225 @@
+/*-----------------container-----------------*/
+.con {
+    text-align: center;
+}
+.main_content {
+    height: 1200px;
+}
+.dd_show {
+    overflow: hidden;
+    display: block;
+}
+.dd_show *{
+    width: 100%;
+    position: relative;
+    top: 60px;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+  }
+  
+  /* Position the "next button" to the right */
+  
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  /* On hover, add a black background color with a little bit see-through */
+  
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active {
+    background-color: #717171;
+}
+.btn {
+    cursor: pointer;
+    width: 5.7rem;
+    margin-top: 10px;
+    margin-bottom: 7px;
+    padding: 0.8rem;
+    background-color: #00A2E8;
+    font-size: 10px;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+.activeMovie, .btn:hover {
+    background-color: #3F48CC;
+}
+  /* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+  
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+.section_no2 {
+    margin: 50px auto;
+    text-align: center;
+}
+.sm_slide{
+    overflow: hidden;
+    display: block;
+}
+.flip_button {
+    margin-top: 50px;
+}
+.flip_button button {
+    border: 0;
+    background-color: #00A2E8;
+    padding: 1.5rem;
+    font-size: 20px;
+    color: white;
+    margin-right: 10px;
+}
+.flip_button button:hover {
+    background-color: #3F48CC;
+}
+.flip_semi_button {
+    border: 0;
+    background-color: #00A2E8;
+    padding: 0.8rem;
+    font-size: 10px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 7px;
+    width: 5.7rem;
+}
+.flip_semi_button:hover {
+    background-color: #3F48CC;
+}
+.item {
+    display: inline-block;
+    text-align: center;
+}
+.poster_img>img {
+    width: 200px;
+}
+/* 
+.activeColor {
+    background-color: #3F48CC;
+} */
+.sm_slide ul {
+    padding-top: 20px;
+    text-align: center;
+}
+.sm_slide ul li img {
+    padding: 1px;
+}
+.sm_slide ul .item {
+    margin: 10px;
+    border: 1px solid lightgray;
+}
+.poster_name_info .button_reserve_star{
+    position: relative;
+}
+.poster_name_info h3.sm_film {
+    margin: 0;
+    padding-top: 16px;
+    display: block;
+    text-align: left;
+}
+.poster_name_info h3.sm_film .film_rate img{
+    display: inline-block;
+    overflow: hidden;
+    width: 20px;
+    height: 21px;
+    padding: 0;
+    vertical-align: middle;
+}
+.poster_name_info h3.sm_film .film_title {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    top: 2px;
+}
+.sm_film {
+    font-size: 15px;
+    margin: 15px;
+}
+#reserve {
+    height: 60px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+/*-----------------bar-----------------*/
+.con .bar {
+    /* position: fixed; */
+    position:absolute;
+    width: 100px;
+    left: 1200px;
+    top: 700px;
+    width: 120px;
+    box-shadow: 1px 1px 8px lightgray;
+    list-style: none;
+}
+.bar ul a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+.bar ul li {
+    list-style: none;
+    padding: 20px;
+    width: 70%;
+    height: 0px auto;
+    line-height: 1.3;
+    font-weight: bold;
+    text-align: center;
+    font-size: 13px;
+    outline: none;
+    transition: all;
+    border-bottom: 1px solid #f2f2f2;
+}
+.bar ul > li:last-child{
+    position: relative;
+    background-color: #00A2E8;
+}
