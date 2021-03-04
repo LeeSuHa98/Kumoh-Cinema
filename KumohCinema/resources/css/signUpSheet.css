@@ -1,0 +1,37 @@
+/*-----------------container-----------------*/
+.container {
+    width: 1080px;
+    margin: 50px auto;
+    margin-top: 100px;
+    text-align: center;
+}
+#title {
+    height: 50px;
+    display: block;
+    margin-bottom: 20px;
+}
+.info {
+    width: 70%;
+    padding: 25px;
+    border: 2px solid lightblue;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.info ul li {
+    margin: 30px;
+    font-size: 18px;
+}
+.info ul li span {
+    width: 120px;
+    color: #777;
+}
+.info ul li input {
+    height: 30px;
+    margin-left: 30px;
+    border: 0;
+    border-bottom: 1px solid navy;
+    text-align: center;
+}
+.container input {
+    height: 60px;
+}

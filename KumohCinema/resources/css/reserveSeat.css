@@ -1,0 +1,169 @@
+/*-----------------container-----------------*/
+#title {
+    height: 60px;
+    display: block;
+    margin-top: 5px;
+}
+#semi_title {
+    height: 20px;
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 10px;
+ }
+.semi_bar {
+    border: 2px solid lightblue;
+    border-radius: 20px;
+    width: 700px;
+    /* margin-top: 1rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-bottom: 3rem; */
+    text-align: center;
+}
+.container {
+    padding-top: 100px;
+    display: block;
+    top: 60px;
+    margin-bottom: 30px;
+}
+.normal {
+    padding-left: 35px;
+}
+.choose_info select {
+    margin: 15px;
+    width: 35px;
+    height: 20px;
+    text-align: center;
+    border: 2px solid lightblue;
+    display: inline;
+}
+.contents {
+    text-align: center;
+    height: 250px;
+}
+.choose_time {
+    border: 2px solid lightblue;
+    border-radius: 20px;
+    /* margin-left: 2em; */
+    width: 10rem;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.choose_time button {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 7px;
+    margin-bottom: 5px;
+    padding: 10px;
+    text-align: center;
+    border: 0;
+    display: inline;
+    bottom: 100px;
+    background-color: #00A2E8;
+}
+
+#screen {
+    font-size: 15px;
+    color: #3F48CC;
+    text-align: center;
+    margin: 10px;
+}
+.choose_seat {
+    display: inline-block;
+    border: 2px solid lightblue;
+    border-radius: 20px;
+    width: 15rem;
+    height: 12rem;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    padding-top: 3px;
+}
+.seat_btn button {
+    margin-bottom: 5px;
+    width: 1.3rem;
+    border-color: #00A2E8;
+    background-color: #00A2E8;
+}
+.seat_btn button:hover {
+    border-color: #3F48CC;
+    background-color: #3F48CC;
+
+}
+#btn:hover {
+    background-color: #3F48CC;
+}
+.checkSeat {
+    display: inline-block;
+    border: 2px solid lightblue;
+    border-radius: 20px;
+    width: 11rem;
+    height: 12rem;
+    position: relative;
+    float: right;
+    right: 30px;
+    top: 10px;
+}
+#price {
+    position: absolute;
+    bottom: 0;
+    display: table-cell;
+    vertical-align: bottom;
+    text-align: center; 
+    font-size: 15px;
+    color: #3F48CC;
+}
+.seat_btn {
+    overflow: hidden;
+    display: block;
+}
+.time {
+    cursor: pointer;
+    font-size: 10px;
+    width: 5.7rem;
+    margin-top: 10px;
+    margin-bottom: 7px;
+    padding: 0.8rem;
+    background-color: #00A2E8;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.activeSeat, .btn:hover {
+    background-color: #3F48CC;
+} 
+.activeMovie, .time:hover {
+    background-color: #3F48CC;
+}
+  /* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+  
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+/*-----------------section----------------*/
+.section {
+    text-align: center;
+}
+#reservation_btn {
+    height: 60px;
+    vertical-align: middle;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+#cancel_btn{
+    height: 60px;
+    vertical-align: middle;   
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
